@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"">
+
+	<title>Ballroom Dancer Quiz</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="logo.ico">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="quiz" class="jumbotron">
+		<img src="ballroom1.png">
+		<h1>Which Ballroom Dance Are You?</h1>
+		<h4 id="questionNum">...</h4>
+		<div class="container">
+			<h2 id="currentQ">Welcome to the quiz!</h2>
+		</div>
+		<div class="container">
+			<div id="btn-list">
+				<button class="btn-item" name="yes" id="btn1">btn1</button>
+				<button class="btn-item" name="no" id="btn2">btn2</button>
+				<button class="btn-item" id="btn3">btn3</button>
+				<button class="btn-item" id="btn4">btn4</button>
+				<button class="btn-item" id="btn5">btn5</button>
+			</div>
+		</div>
+	</div>
+	<div id="result" class="jumbotron hide">
+		<video class="vid-clip" autoplay="autoplay" src="videos/waltz.mkv" controls="controls"></video>
+		<video class="vid-clip" autoplay="autoplay" src="videos/tango.mkv" controls="controls"></video>
+		<video class="vid-clip" autoplay="autoplay" src="videos/viennese.mkv" controls="controls"></video>
+		<video class="vid-clip" autoplay="autoplay" src="videos/foxtrot.mkv" controls="controls"></video>
+		<video class="vid-clip" autoplay="autoplay" src="videos/quickstep.mkv" controls="controls"></video>
+		<div class="container">
+			<h2 id="danceResult">|...|</h2>
+			<p id="profile"></p>
+			<button id="replayBtn">Re-take Quiz</button>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
