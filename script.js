@@ -455,6 +455,7 @@ function nextQuestion(){
 		quizScreen.classList.add('hide');
 		myDance = calculateScore();
 		danceResult.innerHTML = 'You are the '+danceArr[myDance]+ '!';
+		autoPlayVids();
 		switch(myDance){
 			case 'w': vidArray[0].classList.remove('hide'); vidArray[0].play(); danceProfile.innerHTML = danceChars[0];
 			break;
@@ -497,6 +498,12 @@ function calculateScore(){
 	}
 	// console.log(bestDance);
 	return bestDance;
+}
+
+function autoPlayVids(){
+	for (var v = 0; v < vidArray.length; v++){
+	vidArray[v].setAttribute('autoplay', 'autoplay');
+	}
 }
 replayBtn.addEventListener('click', function(){
 	document.location.reload();
