@@ -455,17 +455,36 @@ function nextQuestion(){
 		quizScreen.classList.add('hide');
 		myDance = calculateScore();
 		danceResult.innerHTML = 'You are the '+danceArr[myDance]+ '!';
-		autoPlayVids();
 		switch(myDance){
-			case 'w': vidArray[0].classList.remove('hide'); vidArray[0].play(); danceProfile.innerHTML = danceChars[0];
+			case 'w':
+				vidArray[0].classList.remove('hide');
+				autoPlayVid(0);
+				vidArray[0].play();
+				danceProfile.innerHTML = danceChars[0];
 			break;
-			case 't': vidArray[1].classList.remove('hide'); vidArray[1].play(); danceProfile.innerHTML = danceChars[1];
+			case 't':
+				vidArray[1].classList.remove('hide');
+				autoPlayVid(1);
+				vidArray[1].play();
+				danceProfile.innerHTML = danceChars[1];
 			break;
-			case 'v': vidArray[2].classList.remove('hide'); vidArray[2].play(); danceProfile.innerHTML = danceChars[2];
+			case 'v':
+				vidArray[2].classList.remove('hide');
+				autoPlayVid(2);
+				vidArray[2].play();
+				danceProfile.innerHTML = danceChars[2];
 			break;
-			case 'f': vidArray[3].classList.remove('hide'); vidArray[3].play(); danceProfile.innerHTML = danceChars[3];
+			case 'f':
+				vidArray[3].classList.remove('hide');
+				autoPlayVid(3);
+				vidArray[3].play();
+				danceProfile.innerHTML = danceChars[3];
 			break;
-			case 'q': vidArray[4].classList.remove('hide'); vidArray[4].play(); danceProfile.innerHTML = danceChars[4];
+			case 'q':
+				vidArray[4].classList.remove('hide');
+				autoPlayVid(4);
+				vidArray[4].play();
+				danceProfile.innerHTML = danceChars[4];
 			break;
 			default:
 				vidArray[0].innerHTML = 'An error occurred: the video cannot be played.';
@@ -500,11 +519,10 @@ function calculateScore(){
 	return bestDance;
 }
 
-function autoPlayVids(){
-	for (var v = 0; v < vidArray.length; v++){
-	vidArray[v].setAttribute('autoplay', 'autoplay');
-	}
+function autoPlayVid(num){
+	vidArray[num].setAttribute('autoplay', 'autoplay');
 }
+
 replayBtn.addEventListener('click', function(){
 	document.location.reload();
 	//Force scroll position to top of page after refresh

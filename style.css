@@ -35,7 +35,6 @@ body {
 	margin: 10px auto;
 	padding: 20px;
 	position: relative;
-	height: 580px;
 	width: 90%;
 }
 .jumbotron img {
@@ -52,9 +51,9 @@ body {
 	width: 20%;
 }
 .container {
-  width: 100%;
-  padding: 0;
-  margin: 0 auto;
+	margin: 0 auto;
+	padding: 10px;
+	width: 100%;
 }
 h1 {
 	color: #C200CD/*B20097*/;
