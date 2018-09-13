@@ -29,6 +29,8 @@ body {
 }
 .jumbotron {
 	background-color: #e9ecef;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
 	border-radius: 7px;
 	margin: 10px auto;
 	padding: 20px;
@@ -39,7 +41,11 @@ body {
 .jumbotron img {
 	background: #e9ecef;
 	border: 4px solid #C200CD;
+	-webkit-border-radius: 300px;
+	-moz-border-radius: 300px;
 	border-radius: 300px;
+	-webkit-box-shadow: 2px 2px 5px #000;
+	-moz-box-shadow: 2px 2px 5px #000;
 	box-shadow: 2px 2px 5px #000;
 	margin: 0;
 	padding: 0;
@@ -71,7 +77,11 @@ h1 {
 }
 .btn-item, #replayBtn {
 	border: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
 	border-radius: 5px;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	-moz-box-shadow: 1px 1px 3px #000;
 	box-shadow: 1px 1px 3px #000;
 	font-size: 14px;
 	font-weight: bold;
@@ -82,6 +92,8 @@ h1 {
 .btn-item:hover, #replayBtn:hover {
 	background-color: #002BE8;
 	color: #FFF;
+	-webkit-box-shadow: 2px 2px 5px #1518BA, -2px 2px 5px #1518BA, 2px -2px 5px #1518BA, -2px -2px 5px #1518BA;
+	-moz-box-shadow: 2px 2px 5px #1518BA, -2px 2px 5px #1518BA, 2px -2px 5px #1518BA, -2px -2px 5px #1518BA;
 	box-shadow: 2px 2px 5px #1518BA, -2px 2px 5px #1518BA, 2px -2px 5px #1518BA, -2px -2px 5px #1518BA;
 }
 .btn-item:focus {
