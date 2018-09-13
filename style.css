@@ -92,7 +92,7 @@ h1 {
 }
 .vid-clip {
 	margin-top: 50px;
-	width: 600px;
+	width: 60%;
 }
 #result h2 {
 	color: #C200CD;
@@ -106,6 +106,12 @@ h1 {
 #profile {
 	font-size: 20px;
 	margin: 0;
+}
+
+@media only screen and (max-width: 768px){
+	.vid-clip {
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 576px){
@@ -135,5 +141,5 @@ h1 {
 	}
 	#profile {
 	font-size: 14px;
-}
+	}
 }
