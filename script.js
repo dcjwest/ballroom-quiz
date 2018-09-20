@@ -45,7 +45,7 @@ var danceChars = new Array('You carry yourself with elegance and grace. Your gen
 							'You have a dramatic flair and you\'re quite vivacious. \"Intensity\" is your middle-name and you strongly go after what you want.',
 							'You are grounded in traditional values and are blessed with child-like joy. You typically view your life as a fairytale, believing in true love and the goodness of people.',
 							'You have a smooth, easy-going nature which attracts those around you. Your timeless spirit makes you appreciate old-school things more than others.',
-							'Your friendly and energetic presence makes you especially likeable. You are strongly motivated and keep moving forward no matter what');
+							'Your friendly and energetic presence makes you especially likeable. You are strongly motivated and keep moving forward no matter what.');
 
 /* Counter and list of quiz questions array */
 var questionCount = 0;
