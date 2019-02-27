@@ -7,18 +7,16 @@
 	<title>Ballroom Dancer Quiz</title>
 
 	<link rel="shortcut icon" type="image/x-icon" href="logo.ico">
-	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div id="quiz" class="jumbotron">
-		<img src="ballroom1.png">
-		<h1>Which Ballroom Dance Are You?</h1>
-		<h4 id="questionNum">...</h4>
-		<div class="container">
-			<h2 id="currentQ">Welcome to the quiz!</h2>
-		</div>
-		<div class="container">
+	<h1>Which Ballroom Dance Are You?</h1>
+	<div class="bg">
+		<div id="quiz" class="jumbotron">
+			<div class="container">
+				<h4 id="questionNum">...</h4>
+				<h2 id="currentQ">Welcome to the quiz!</h2>
+			</div>
 			<div id="btn-list">
 				<button class="btn-item" name="yes" id="btn1">btn1</button>
 				<button class="btn-item" name="no" id="btn2">btn2</button>
@@ -27,17 +25,17 @@
 				<button class="btn-item" id="btn5">btn5</button>
 			</div>
 		</div>
-	</div>
-	<div id="result" class="jumbotron hide">
-		<video class="vid-clip" src="videos/waltz.webm" type="video/webm" controls="controls"></video>
-		<video class="vid-clip" src="videos/tango.webm" type="video/webm" controls="controls"></video>
-		<video class="vid-clip" src="videos/viennese.webm" type="video/webm" controls="controls"></video>
-		<video class="vid-clip" src="videos/foxtrot.webm" type="video/webm" controls="controls"></video>
-		<video class="vid-clip" src="videos/quickstep.webm" type="video/webm" controls="controls"></video>
-		<div class="container">
-			<h2 id="danceResult">|...|</h2>
-			<p id="profile"></p>
-			<button id="replayBtn">Re-take Quiz</button>
+		<div id="result" class="jumbotron hide">
+			<video class="vid-clip" src="videos/waltz.webm" type="video/webm" controls="controls"></video>
+			<video class="vid-clip" src="videos/tango.webm" type="video/webm" controls="controls"></video>
+			<video class="vid-clip" src="videos/viennese.webm" type="video/webm" controls="controls"></video>
+			<video class="vid-clip" src="videos/foxtrot.webm" type="video/webm" controls="controls"></video>
+			<video class="vid-clip" src="videos/quickstep.webm" type="video/webm" controls="controls"></video>
+			<div class="container result-bg">
+				<h2 id="danceResult">|...|</h2>
+				<p id="profile"></p>
+				<button id="replayBtn">Re-take Quiz</button>
+			</div>
 		</div>
 	</div>
 
