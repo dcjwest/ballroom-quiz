@@ -121,7 +121,7 @@ h1 {
 	margin: 0;
 }
 
-@media only screen and (max-width: 767px){
+@media screen and (max-width: 767px){
 	.bg {
 		background: url("images/ballroom-bg-mobile.jpg");
   		background-size: cover;
@@ -145,7 +145,11 @@ h1 {
 	}
 }
 
-@media only screen and (max-width: 576px){
+@media screen and (max-width: 576px){
+
+	h1 {
+		font-size: 32px;
+	}
 
 	#result h2 {
 		font-size: 45px;
