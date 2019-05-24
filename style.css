@@ -43,14 +43,16 @@
 }
 
 h1 {
-	border-top: 2px solid #7A6600;
-	border-bottom: 2px solid #7A6600;
-	color: #7A6600/*#C200CD*//*B20097*/;
+	border-top: 2px solid #ffc600;
+	border-bottom: 2px solid #ffc600;
+	color: #ffc600;
 	font-family: 'Dancing Script', cursive;
-	font-size: 50px;
+	font-size: 60px;
 	margin: 15px;
 	position: absolute;
-	text-shadow: 1px 1px 0 #ccac00;
+	top: 20px;
+	left: 20px;
+	text-shadow: 3px 3px 0 #7A6600;
 }
 
 #questionNum {color: #fff;}
@@ -103,6 +105,7 @@ h1 {
 
 .result-bg {
 	background-image: radial-gradient(circle at bottom left, red 5%, purple 50%, blue, black);
+	padding: 10px 15px;
 }
 
 #result h2 {
@@ -118,7 +121,7 @@ h1 {
 #profile {
 	color: #fff;
 	font-size: 20px;
-	margin: 0;
+	margin-top: 10px;
 }
 
 @media screen and (max-width: 767px){
@@ -175,6 +178,8 @@ h1 {
 	h1 {
 		font-size: 35px;
 		position: absolute;
+		top: 0;
+		left: 0;
 		width: 95%;
 	}
 
