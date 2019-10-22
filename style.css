@@ -52,7 +52,7 @@ h1 {
 	position: absolute;
 	top: 20px;
 	left: 20px;
-	text-shadow: 3px 3px 0 #7A6600;
+	text-shadow: 3px 3px 0 #7A6600 !important;
 }
 
 #questionNum {color: #fff;}
@@ -64,7 +64,7 @@ h1 {
 	font-family: 'Libre Baskerville', serif;
 	font-size: 60px;
 	position: relative;
-	text-shadow: 3px 3px 10px #000;
+	text-shadow: 3px 3px 10px #000 !important;
 }
 
 #btn-list {
@@ -115,7 +115,7 @@ h1 {
 	font-weight: bold;
 	margin: 5px;
 	margin-top: 0;
-	text-shadow: 2px 2px 0 #000;
+	text-shadow: 2px 2px 0 #000 !important;
 }
 
 #profile {
@@ -161,7 +161,7 @@ h1 {
 
 	#currentQ {
 		font-size: 30px;
-		text-shadow: 1px 1px 3px #000;
+		text-shadow: 1px 1px 3px #000 !important;
 	}
 
 	#btn-list {
